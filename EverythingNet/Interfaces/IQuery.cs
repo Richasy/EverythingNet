@@ -1,33 +1,33 @@
 ﻿namespace EverythingNet.Interfaces
 {
-  public interface IQuery
-  {
-    IQuery Not { get; }
+    public interface IQuery
+    {
+        IQuery Not { get; }
 
-    IQuery Files { get; }
+        IQuery Files { get; }
 
-    IQuery Folders { get; }
+        IQuery Folders { get; }
 
-    IQuery NoSubFolder { get; }
+        IQuery NoSubFolder { get; }
 
-    INameQueryable Name { get; }
+        INameQueryable Name { get; }
 
-    ISizeQueryable Size { get; }
+        ISizeQueryable Size { get; }
 
-    IDateQueryable CreationDate { get; }
+        IDateQueryable CreationDate { get; }
 
-    IDateQueryable ModificationDate { get; }
+        IDateQueryable ModificationDate { get; }
 
-    IDateQueryable AccessDate { get; }
+        IDateQueryable AccessDate { get; }
 
-    IDateQueryable RunDate { get; }
+        IDateQueryable RunDate { get; }
 
-    IMusicQueryable Music { get; }
+        IMusicQueryable Music { get; }
 
-    IFileQueryable File { get; }
+        IFileQueryable File { get; }
 
-    IImageQueryable Image { get; }
+        IImageQueryable Image { get; }
 
-    IQueryable Queryable(IQueryable queryable);
-  }
+        IQueryable Queryable(IQueryable queryable);
+    }
 }

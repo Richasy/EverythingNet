@@ -1,11 +1,11 @@
 ﻿namespace EverythingNet.Interfaces
 {
-  using System.Collections.Generic;
+    using System.Collections.Generic;
 
-  internal interface IQueryGenerator
-  {
-    RequestFlags Flags { get; }
+    internal interface IQueryGenerator
+    {
+        RequestFlags Flags { get; }
 
-    IEnumerable<string> GetQueryParts();
-  }
+        IEnumerable<string> GetQueryParts();
+    }
 }

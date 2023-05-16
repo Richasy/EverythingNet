@@ -1,31 +1,31 @@
 namespace EverythingNet.Interfaces
 {
-  using System;
+    using System;
 
-  public interface ISearchResult
-  {
-    long Index { get; }
+    public interface ISearchResult
+    {
+        long Index { get; }
 
-    bool IsFile { get; }
+        bool IsFile { get; }
 
-    string FullPath { get; }
+        string FullPath { get; }
 
-    string Path { get; }
+        string Path { get; }
 
-    string FileName { get; }
+        string FileName { get; }
 
-    long Size { get; }
+        long Size { get; }
 
-    uint Attributes { get; }
+        uint Attributes { get; }
 
-    DateTime Created { get; }
+        DateTime Created { get; }
 
-    DateTime Modified { get; }
+        DateTime Modified { get; }
 
-    DateTime Accessed { get; }
+        DateTime Accessed { get; }
 
-    DateTime Executed { get; }
+        DateTime Executed { get; }
 
-    Exception LastException { get; }
-  }
+        Exception LastException { get; }
+    }
 }

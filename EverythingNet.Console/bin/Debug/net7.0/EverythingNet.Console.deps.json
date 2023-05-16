@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "EverythingNet.Console/1.0.0": {
+        "dependencies": {
+          "EverythingNet": "1.0.0"
+        },
+        "runtime": {
+          "EverythingNet.Console.dll": {}
+        }
+      },
+      "EverythingNet/1.0.0": {
+        "runtime": {
+          "EverythingNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EverythingNet.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EverythingNet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

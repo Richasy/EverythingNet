@@ -1,15 +1,15 @@
 ﻿namespace EverythingNet.Interfaces
 {
-  using System.Collections.Generic;
+    using System.Collections.Generic;
 
-  public interface IQueryable : IEnumerable<ISearchResult>
-  {
-    bool IsFast { get; }
+    public interface IQueryable : IEnumerable<ISearchResult>
+    {
+        bool IsFast { get; }
 
-    long Count { get; }
+        long Count { get; }
 
-    IQuery And { get; }
+        IQuery And { get; }
 
-    IQuery Or { get; }
-  }
+        IQuery Or { get; }
+    }
 }
